@@ -1,4 +1,4 @@
-# React Portfolio - Part 2 - Components
+# React Portfolio - Part 2 - Props
 
 ## Context
 María Santiago, a talented designer and full stack developer, has become interested in React and wants to convert her vanilla html/css/js portfolio to React components. She is unfamiliar with the technology, and she has contracted you, a specialized front-end developer, to help her with this project.
