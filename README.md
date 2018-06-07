@@ -30,7 +30,7 @@ The Component structure will ultimately look like this
 1. Project Setup from Terminal
 ```sh
 # (1) Navigate to your assignments directory
-cd ~/Documents/muktek/assignments
+cd ~/muktek/assignments
 
 # (2) create the application and cd into it
 create-react-app assignment--react-props-portfolio
