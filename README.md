@@ -14,14 +14,16 @@ Note: you will want to use the `.map` function to convert an array of data to an
 
 The Component structure will ultimately look like this
 ```
-- SkillsList
-  - Skill ( x 10, for each in the 'skills' array from datasource.js )
+- App
 
-- DegreeHistory
-  - EduTitle ( x 3, for each in the 'eduList' array from datasource.js )
+  - SkillsList
+    - Skill ( x 10, for each in the 'skills' array from datasource.js )
 
-- WorkHistory
-  - Job ( x 4, for each in the 'jobsList' array from datasource.js )
+  - DegreeHistory
+    - EduTitle ( x 3, for each in the 'eduList' array from datasource.js )
+
+  - WorkHistory
+    - Job ( x 4, for each in the 'jobsList' array from datasource.js )
 
 ```
 
