@@ -66,71 +66,11 @@ npm start
     - You will need to remove the styles imported from `App.css"` in `App.js`.
   - For data:
     - the data is distributed through the project-files in the `data/` directory in a file called `datasource.js`
-    - In order to complete the assignment, you will need to import each array in `datasource.js` in your `index.js` like so (with the correct filepath):
+    - In order to complete the assignment, you will need to import each array in `datasource.js` in your `App.js` like so (with the correct filepath):
     ```js
       import {skills, eduList, jobsList} from «...path/to/datasourcefile.js...»
     ```
 
+### Expected Result
 
-
-### Components in HTML
-
-##### `SkillList`
-```html
-<!-- SkillList -->
-<section>
-  <h4>Skills</h4>
-  <div class="skills-list">
-    <!-- Skill -->
-    <span class="skills-list__single">UI Design</span>
-    ...
-  </div>
-</section>
-```
-
-##### `EducationHistory`
-```html
-<!-- EducationHistory -->
-<section>
-  <h4>Education</h4>
-
-  <div class="degree-list">
-
-    <!-- EduTitle -->
-    <div class="degree">
-      <h5 class="degree__institute">Full Stack Academy</h5>
-      <p class="degree__field">Ruby on Rails, Full Stack Program</p>
-      <p class="degree__dates">2015</p>
-    </div>
-
-    ...
-
-  </div>
-
-</section>
-```
-
-##### `WorkHistory`
-```html
-  <!-- WorkHistory -->
-  <section>
-    <h4>Work Experience</h4>
-
-    <div class="job-timeline">
-      <!-- Job -->
-      <div class="job">
-        <div class="job__years">
-          <h6 class="job__end">NOW</h6>
-          <h6 class="job__start">2016</h6>
-        </div>
-        <h5 class="job__title">Full Stack Developer</h5>
-        <h5 class="job__company">Gummy Mobile</h5>
-        <p class="job__description">It's critical that we give 110% when proactively incentivizing stand-ups. Change the way you do business - adopt seamless industry leaders. Going forward, our knowledge transfer capability will deliver value to executive searches.</p>
-      </div>
-
-      ...
-
-    </div>
-  <section>
-
-```
+![screenshot](demos/expected-result.png)
